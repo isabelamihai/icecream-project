@@ -1,7 +1,7 @@
 {
   "name": "icecream-project",
   "version": "2.0.0",
-  "description": "",
+  "description": "team3-project",
   "homepage": "https://github.com/isabelamihai/icecream-project/",
   "scripts": {
     "start": "parcel src/*.html",
