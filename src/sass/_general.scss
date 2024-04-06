@@ -11,6 +11,8 @@
     --background-color:rgb(255, 184, 202);
     --hover-buttons: rgb(236, 235, 235);
     --icons-background: rgb(254, 165, 187);
+    --transition-hover: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-scale: transform(scale 1.1);
 }
 
 a {
@@ -22,7 +24,7 @@ ul{
 }
 
 .container{
-    max-width: 1200px;
+    max-width:1200px;
     margin:0 auto;
 }
 
