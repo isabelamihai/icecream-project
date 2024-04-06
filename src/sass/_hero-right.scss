@@ -1,39 +1,60 @@
 .elipse-hero {
-    max-width: 543px;
-    height: 534px;
+    height: 543px;
+    width: 543px;
     background-color: var(--pink);
     border-radius: 50%;
     position: absolute;
-    top:54px;
-    right: 189px;
+    top:54;
+    left:557;
     z-index: 0;
 }
 
 .hero-right{
-    background-color: var(--background-color);
-    height: 664px;
+    background-color: rgba(255, 184, 202,1);
+    width:100%;
+    max-width: 1280vw;
+    height:664px;
+    position:relative;
+    margin:0 auto;
+
 }
 
-.women-pic {
+.con {
     position: absolute;
-    max-width: 304px;
-    top:423;
-    right:56;
-}
-.icecream-pic {
-    position: absolute;
-    max-width: 236px;
+    width: 237px;
+    height: 557px;
     top:108;
-    right:368;
+    right:328;
 }
 
-.cafes-elipse,.food-elipse {
- max-width:30px;
+.women {
+    position: absolute;
+    width: 304px;
+    height: 241px;
+    top:423px;
+    right:16px;
+}
+
+.cafes-elipse {
+ width:30px;
  height:30px;
  background-color:var(--white);
  border-radius: 50%;
  position: absolute;
+ top:152px;
  right:16px;
+ z-index: 1;
+}
+
+.food-elipse{
+    width: 30px;
+    height: 30px;
+    background-color: var(--white);
+    border-radius: 50%;
+    position: absolute;
+    top: 244px;
+    right: 16px;
+    z-index: 1;
 }
 
 .food, .cafes {
@@ -44,19 +65,26 @@
     color: var(--red);
     font-family:var(--titan-family);
     font-size: 46px;
-    max-width:54px;
+    width:54px;
     height:53px;
+    letter-spacing: 0.04em;
 }
 
 .duo{
     flex-direction: column;
         display: flex;
-        align-items: flex-end;
         gap: 2px;
-        z-index: 1;
-        position: relative;
-        top:75px;
-        right:16px;
+        z-index: 2;
+        align-items: self-end;
+        position: absolute;
 }
 
+.cafes-group .duo{
+ top:152;
+ right:34;
+}
 
+.food-group .duo{
+    top:247;
+    right:34;
+}
