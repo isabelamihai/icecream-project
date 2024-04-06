@@ -24,39 +24,40 @@
 .icecream-pic {
     position: absolute;
     top:108;
-    right: 368;
+    right:368;
 }
 
-.number-elipse1 .elipse1 {
+.cafes-elipse,.food-elipse {
  width:30px;
  height:30px;
  background-color:var(--white);
  border-radius: 50%;
- position:absolute;
- top:152;
- right:56;
+ position: absolute;
+ right:56px;
+
 }
 
-.number-elipse2 .elipse2 {
-    width: 30px;
-        height: 30px;
-        background-color:var(--white);
-        border-radius: 50%;
-        position: absolute;
-        top: 62;
-        right:56;
-}
-
-.cafes p,
-.food p {
+.food, .cafes {
     color:var(--white);
 }
 
-.cafes h1,
-.food h1{
+.number {
     color: var(--red);
     font-family:var(--titan-family);
     font-size: 46px;
     width:54px;
     height:53px;
 }
+
+.duo{
+    flex-direction: column;
+        display: flex;
+        align-items: flex-end;
+        gap: 2px;
+        z-index: 1;
+        position: relative;
+        top:75px;
+        right: -50px;
+}
+
+
