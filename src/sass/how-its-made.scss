@@ -1,6 +1,10 @@
 
 .how-its-made {
     background-color: rgb(255, 245, 246);
+    background-image: url(/src/images/about/milk-bg-d.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 .how-its-made .container h2 {
@@ -12,6 +16,7 @@
     letter-spacing: 0.06em;
     text-align: center;
     padding-top: 16px;
+    margin-top: 0;
 }
 
 .how-its-made .container h3 {
@@ -69,8 +74,6 @@
 }
 
 .how-its-made-style {
-    background-image: url(/src/images/about/milk-bg-d.png);
-    background-repeat: no-repeat;
-    background-size: cover;
     display: flex;
+    
 }
