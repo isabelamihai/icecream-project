@@ -1,0 +1,84 @@
+
+.how-its-made {
+    background-color: rgb(255, 245, 246);
+    height: 1229px;
+    
+}
+
+.how-its-made .container h2 {
+    color: var(--red);
+    font-family:var(--titan-family);
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 66.41px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    padding-top: 16px;
+    margin-top: 0;
+}
+
+.how-its-made span {
+    display: flex;
+    justify-content: center;
+    color: var(--pink);
+    font-family: var(--titan-family);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 34.35px;
+    letter-spacing: 0.04em;
+    padding-top: 60px;
+}
+
+.how-its-made-text p:first-child {
+    color: var(--black);
+    font-family: var(--dm-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28.16px;
+    letter-spacing: 0.04em;
+    width: 400px;
+    margin-left: 99px;
+    margin-top: 90px;
+}
+
+.how-its-made-text p:nth-child(2) {
+    color: var(--gray);
+    font-family: var(--dm-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27.16px;
+    letter-spacing: 0.04em;
+    width: 401px;
+    margin-left: 99px;
+    margin-top: 32px;
+    
+}
+
+.read-more-btn {
+    width: 176px;
+    height: 44px;
+    /*font-family: var(--dm-family);*/
+    border-radius: 22px;
+    background-color: var(--white);
+    color: var(--red);
+    border-style: none;
+    margin-left: 99px;
+    margin-top: 40px;
+    
+
+}
+
+.read-more-btn:hover {
+    background-color: var(--hover-buttons);
+}
+
+.how-its-made-style {
+    display: flex;
+    background-image: url(/src/images/about/milk-bg-d.png);
+    background-repeat: no-repeat;
+    
+}
+
+.how-pick {
+    margin-left: 16px;
+}
