@@ -1,6 +1,12 @@
  .contacts{
     display: flex;
     justify-content: space-around;
+    background: #fff5f6;
+ }
+ .card-contacts{
+   position: relative;
+   top: -120px;
+   z-index: 1;
  }
  .contacts h1{
     position: absolute;
