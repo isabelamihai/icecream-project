@@ -4,17 +4,22 @@
     background-color: var(--pink);
     border-radius: 50%;
     position: absolute;
-    top:54px;
+    top: 54px;
     right: 149px;
     z-index: 0;
 }
 
-.hero-right{
-    background-color: rgba(255, 184, 202,1);
+.hero {
+    background-color: rgba(255, 184, 202, 1);
+    max-width: 100%;
+}
+
+.hero-right {
+
     max-width: 1280px;
-    height:664px;
-    position:relative;
-    margin:0 auto;
+    height: 664px;
+    position: relative;
+    margin: 0 auto;
     padding: 37px 16px 0 16px;
 }
 
@@ -22,31 +27,31 @@
     position: absolute;
     width: 237px;
     height: 557px;
-    top:108;
-    right:328;
-    margin-right:8px;
+    top: 108;
+    right: 328;
+    margin-right: 8px;
 }
 
 .women {
     position: absolute;
     width: 304px;
     height: 241px;
-    top:423px;
-    right:16px;
+    top: 423px;
+    right: 16px;
 }
 
 .cafes-elipse {
- width:30px;
- height:30px;
- background-color:var(--white);
- border-radius: 50%;
- position: absolute;
- top:152px;
- right:16px;
- z-index: 1;
+    width: 30px;
+    height: 30px;
+    background-color: var(--white);
+    border-radius: 50%;
+    position: absolute;
+    top: 152px;
+    right: 16px;
+    z-index: 1;
 }
 
-.food-elipse{
+.food-elipse {
     width: 30px;
     height: 30px;
     background-color: var(--white);
@@ -57,35 +62,36 @@
     z-index: 1;
 }
 
-.food, .cafes {
-    color:var(--white);
+.food,
+.cafes {
+    color: var(--white);
 }
 
 .number {
     color: var(--red);
-    font-family:var(--titan-family);
+    font-family: var(--titan-family);
     font-size: 46px;
-    width:54px;
-    height:53px;
+    width: 54px;
+    height: 53px;
     letter-spacing: 0.04em;
-    padding:3px;
+    padding: 3px;
 }
 
-.duo{
+.duo {
     flex-direction: column;
-        display: flex;
-        gap: 2px;
-        z-index: 2;
-        align-items: self-end;
-        position: absolute;
+    display: flex;
+    gap: 2px;
+    z-index: 2;
+    align-items: self-end;
+    position: absolute;
 }
 
-.cafes-group .duo{
- top:152;
- right:34;
+.cafes-group .duo {
+    top: 152;
+    right: 34;
 }
 
-.food-group .duo{
-    top:247;
-    right:34;
+.food-group .duo {
+    top: 247;
+    right: 34;
 }
