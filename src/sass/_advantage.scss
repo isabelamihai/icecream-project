@@ -1,7 +1,8 @@
 .section-cups{height: 472px;
     background-color: rgb(255, 245, 246);
 }
-.features-icecream{display: flex;}
+.features-icecream{display: flex; 
+    justify-content: center;}
 .numberseven,
 .numberone,
 .numbereight {
@@ -41,19 +42,11 @@
 
 
 .icecream-set2 {
-    position: absolute;
-    width: 288px;
-    height: 163px;
-    top: 2604px;
-    left: 419px; padding-left: 115px;
+ padding-left: 115px;
 }
 
 .icecream-set3 {
-    position: absolute;
-    width: 317px;
-    height: 163px;
-    left: 816px;
-    top: 2604px; padding-left: 80px;
+    padding-left: 80px;
         padding-right: 90px;
 }
 
