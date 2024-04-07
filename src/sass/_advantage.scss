@@ -1,3 +1,8 @@
+.section-cups{height: 472px;
+    background-color: rgb(255, 245, 246);
+}
+.features-icecream{display: flex; 
+    justify-content: center;}
 .numberseven,
 .numberone,
 .numbereight {
@@ -9,22 +14,22 @@
     font-size: 58px;
     height: 65px;
     top: 2604px;
-    justify-content: center;
-}
+    justify-content: center;}
+
 
 .text-cups1 {
     font-family:var(--dm-family);
     font-weight: 700;
     line-height: 28.16px;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.02em; width: 288px; height: 79px;
 }
 
 .text-cups2 {
     font-family: 'DM Sans', sans-serif;
     font-weight: 700;
-    font-size: 16px;
     line-height: 28.16px;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.02em; width: 317px;
+        height: 58px;
 }
 
 .text-cups3 {
@@ -32,26 +37,29 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 28.16px;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.02em; width: 288px; height: 82px;
 }
 
-.icecream-set1 {
-    position: absolute;
-    width: 288px;
-    height: 163px;
-    top: 2604px;
-    left: 16px;
-}
 
 .icecream-set2 {
-    position: absolute;
-    width: 288px;
-    height: 163px;
-    top: 2604px;
-    left: 419px;
+ padding-left: 115px;
 }
 
 .icecream-set3 {
+    padding-left: 80px;
+    padding-right: 90px;
+}
+
+    .icecream-icons1,
+    .icecream-icons2,
+    .icecream-icons3{
+        width: 50px;
+        height: 50px;
+    top:2514px;}
+    .icecream-icons1{left:7px;}
+    .icecream-icons2{left:416px;}
+    .icecream-icons3{left:816px;}
+
     position: absolute;
     width: 317px;
     height: 163px;
