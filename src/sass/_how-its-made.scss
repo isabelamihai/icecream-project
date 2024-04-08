@@ -1,7 +1,7 @@
 
 .how-its-made {
     background-color: rgb(255, 245, 246);
-    height: 1229px;
+    height: 757px;
     
 }
 
@@ -64,12 +64,18 @@
     border-style: none;
     margin-left: 99px;
     margin-top: 40px;
-    
+    transition: background-color var(--transition-hover), transform var(--transform-scale);
+}
 
+.read-more-btn svg {
+    width: 4.43px;
+    height: 8px;
+    margin-left: 13.62px;
 }
 
 .read-more-btn:hover {
     background-color: var(--hover-buttons);
+    transform: scale(1.05);
 }
 
 .how-its-made-style {
