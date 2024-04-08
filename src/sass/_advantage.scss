@@ -18,8 +18,6 @@
     text-align: right;
     font-size: 58px;
     height: 65px;
-    top: 2604px;
-    justify-content: center;
 }
 
 
@@ -42,7 +40,7 @@
 }
 
 .text-cups3 {
-    font-family: 'DM Sans', sans-serif;
+    font-family: var(--dm-family);
     font-weight: 700;
     line-height: 28.16px;
     letter-spacing: 0.02em;
@@ -65,7 +63,6 @@
 .icecream-icons3 {
     width: 50px;
     height: 50px;
-    top: 2514px;
 }
 
 .icecream-icons1 {
@@ -73,16 +70,10 @@
 }
 
 .icecream-icons2 {
-    left: 416px;
+    left: 359px;
 }
 
 .icecream-icons3 {
-    left: 816px;
+    left: 350px;
+    stroke: #FFA5BA;
 }
-
-//     position: absolute;
-//     width: 317px;
-//     height: 163px;
-//     left: 816px;
-//     top: 2604px;
-// }
