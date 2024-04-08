@@ -64,8 +64,7 @@
     border-style: none;
     margin-left: 99px;
     margin-top: 40px;
-    
-
+    transition: background-color var(--transition-hover), transform var(--transform-scale);
 }
 
 .read-more-btn svg {
@@ -76,6 +75,7 @@
 
 .read-more-btn:hover {
     background-color: var(--hover-buttons);
+    transform: scale(1.05);
 }
 
 .how-its-made-style {
