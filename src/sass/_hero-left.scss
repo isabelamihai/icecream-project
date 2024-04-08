@@ -1,3 +1,7 @@
+.hero-left {
+    background-color: rgba(255, 184, 202, 1);
+}
+
 .cup-of-milk {
     margin-right: 400px;
 }
@@ -8,7 +12,7 @@
 
 .word {
     color: var(--red);
-    font-family: "Titan One";
+    font-family: var(--titan-family);
 }
 
 .button-1 {
@@ -39,7 +43,6 @@
     width: 277px;
     height: 137px;
     text-decoration: none;
-
 }
 
 .paragraph {
