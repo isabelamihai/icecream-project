@@ -1,39 +1,43 @@
 .footer-icons {
   display: flex;
   gap: 30px;
-  margin-left: 978px;
   margin-bottom: 40px;
 }
+
 .footer-icons .ficon svg {
   width: 20px;
   height: 20px;
 }
 
 .footer-icons .ficon {
-  width: 44px;
-  height: 44px;
+  width: 34px;
+  height: 34px;
   background-color: var(--icons-background);
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .footer-icons .ficon:hover {
   background-color: #d41443;
 }
 
 .footer-buttons {
-  margin-left: 411px;
-
+  display: flex;
+  justify-content: center;
   padding-top: 60px;
   gap: 12px;
 }
+
 .fsection {
-  background-color: #fff5f6;
-  height: 438px;
+  background-color: rgba(255, 245, 246, 1);
+  height: 877px;
+  width: 100%;
 }
+
 .fbutton {
-  font: DM Sans;
+  font-family: var(--dm-family);
   font-weight: 700;
   line-height: 20px;
   width: 168px;
@@ -45,18 +49,20 @@
   opacity: 0px;
   border: none;
   background-color: #ffffff;
-
   color: #d41443;
   stroke: #d41443;
 }
+
 .footer-buttons button:hover {
   background-color: #d41443;
   color: #ffffff;
   stroke: #ffffff;
 }
+
 .fsvg {
   width: 5px;
   height: 8px;
+  margin-left: 13px;
 }
 
 .footer-slogan {
@@ -64,7 +70,7 @@
 }
 
 .icecream {
-  font-family: Titan One;
+  font-family: var(--titan-family);
   text-transform: uppercase;
   font-size: 30px;
   font-weight: 400;
@@ -74,8 +80,9 @@
   margin-left: 16px;
   color: #ffa5ba;
 }
+
 .passion {
-  font-family: Titan One;
+  font-family: var(--titan-family);
   text-transform: uppercase;
   font-size: 58px;
   font-weight: 400;
@@ -86,23 +93,20 @@
   margin-left: 16px;
   color: #d41443;
 }
+
 .free {
-  font-family: DM Sans;
-  font-size: 16px;
+  font-family: var(--dm-family);
   font-weight: 700;
   line-height: 29.76px;
   letter-spacing: 0.02em;
-  text-align: left;
-  margin-left: 865px;
   padding-bottom: 60px;
 }
+
 .pnumber {
-  font-family: DM Sans;
-  font-size: 16px;
+  font-family: var(--dm-family);
   font-weight: 700;
   line-height: 29.76px;
   letter-spacing: 0.02em;
-  text-align: left;
   color: #d41443;
 }
 
@@ -114,12 +118,20 @@
 .hr {
   border: 1px solid #e1e1e1;
 }
+
 .reserved {
-  font-family: DM Sans;
+  font-family: var(--dm-family);
   font-size: 14px;
   font-weight: 700;
   line-height: 26.04px;
   letter-spacing: 0.02em;
   margin-left: 462px;
   color: #907e82;
+}
+
+.social-free {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: -110px;
 }

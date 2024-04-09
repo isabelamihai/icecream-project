@@ -1,13 +1,22 @@
-.hero-left {
-    background-color: rgba(255, 184, 202, 1);
+.cup-of-milk {
+    width: 213px;
+    height: 216px;
+    z-index: 1;
+    transition: transform var(--transition-hover);
 }
 
-.cup-of-milk {
-    margin-right: 400px;
+.cup-of-milk:hover {
+    transform: var(--transform-scale);
 }
 
 .arrow-right {
-    margin-left: -315px;
+    width: 26px;
+    height: 26px;
+    transition: transform var(--transition-hover);
+}
+
+.arrow-right:hover {
+    transform: var(--transform-scale);
 }
 
 .word {
@@ -16,14 +25,15 @@
 }
 
 .button-1 {
-    background-color: var(--red);
-    border-color: var(--red);
-    color: var(--white);
+    background-color: var(--white);
+    border-color: var(--white);
+    color: var(--red);
     border-radius: 20px;
     width: 107px;
     height: 40px;
     border: none;
     margin-right: 12px;
+    margin-left: 16px;
 }
 
 .button-2 {
@@ -33,21 +43,45 @@
     width: 138px;
     height: 40px;
     border: none;
+    color: var(--red);
+}
+
+.button-1:hover,
+.button-2:hover,
+.button-1:focus,
+.button-2:focus {
+    background-color: var(--red);
+    border-color: var(--red);
+    color: var(--white);
 }
 
 .title {
     font-family: var(--titan-family);
     color: var(--white);
-
     font-weight: 700;
     width: 277px;
     height: 137px;
-    text-decoration: none;
+    margin-left: 16px;
+    margin-top: 60px;
 }
 
 .paragraph {
     font-family: var(--dm-family);
     color: var(--white);
-    margin-left: 300px;
-    margin-top: -155px;
+    width: 200px;
+    height: 78px;
+}
+
+.p-arrow {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.milk-p-arrow {
+    display: flex;
+    flex-direction: row;
+    align-items: first baseline;
+    margin-top: 40px;
+    margin-left: 16px;
 }

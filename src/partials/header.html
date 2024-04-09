@@ -2,41 +2,41 @@
     <div class="container">
         <div class="header-container">
             <a href="index.html">
-                <img class="header-logo" width="199" height="50" src="/src/images/header/logohero.png"
-                    alt="IceCreamLogo"></a>
+                <svg class="logo-header">
+                    <use href="/src/images/svg/symbol-defs.svg#icon-logo"></use>
+                </svg></a>
             <div class="main-nav">
                 <nav>
                     <ul class="nav">
-                        <li><a class="nav__link" href="header">
+                        <li><a class="nav__link" href="index.html">
                                 <p>Home</p>
                             </a></li>
-                        <li><a class="nav__link" href="products">
-                                <p>Our products</p>
-                            </a></li>
-                        <li><a class="nav__link" href="about">
+                        <li><a class="nav__link" href="#about">
                                 <p>About us</p>
                             </a></li>
-                        <li><a class="nav__link" href="howmade">
+                        <li><a class="nav__link" href="#howmade">
                                 <p>How it's made?</p>
                             </a></li>
-                        <li><a class="nav__link" href="contact">
+                        <li><a class="nav__link" href="#products">
+                                <p>Our products</p>
+                            </a></li>
+                        <li><a class="nav__link" href="#contact">
                                 <p>Contact</p>
                             </a></li>
                     </ul>
                 </nav>
             </div>
-
             <div class="header-buttons">
                 <button class="menu-toggle js-open-menu" type="button" aria-expanded="false"
                     aria-controls="mobile-menu">
-                    <svg class="menu-toggle__icon" width="20" height="20">
+                    <svg class="menu-toggle__icon">
                         <use href="/src/images/svg/symbol-defs.svg#icon-Burger"></use>
                     </svg>
                 </button>
                 <button class="header-buttons__cta button button--big button--reversed" type="button">
                     Buy now
-                    <svg width="6" height="10" class="button__chevron">
-                        <use href="/src/images/svg/symbol-defs.svg#icon-Buy"></use>
+                    <svg class="button__chevron">
+                        <use href="/src/images/svg/symbol-defs.svg#icon-arrow"></use>
                     </svg>
                 </button>
             </div>
