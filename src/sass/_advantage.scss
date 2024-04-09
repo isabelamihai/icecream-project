@@ -1,6 +1,7 @@
 .section-cups {
     height: 472px;
-    background-color: rgb(255, 245, 246);
+    background-color: rgb(255, 245, 246); position: relative;
+    z-index: 0;
 }
 
 .features-icecream {
@@ -49,40 +50,50 @@
     width: 288px;
     height: 82px;
 }
-
-
-.icecream-set2 {
-    padding-left: 115px;
-}
-
-.icecream-set3 {
-    padding-left: 80px;
-    padding-right: 90px;
-}
-
-.icecream-icons1,
-.icecream-icons2,
-.icecream-icons3 {
+.icons-cream {
+    position: absolute;
     width: 50px;
     height: 50px;
     top: 2514px;
 }
-
-.icecream-icons1 {
-    left: 7px;
-}
-
-.icecream-icons2 {
-    left: 416px;
+    .icecream-icons1{padding-left: 7px;}
+.icecream-icons2{
+    padding-left: 115px;
 }
 
 .icecream-icons3 {
-    left: 816px;
+    padding-left: 80px;
+    padding-right: 96px;
 }
 
-//     position: absolute;
-//     width: 317px;
-//     height: 163px;
-//     left: 816px;
-//     top: 2604px;
-// }
+
+.icecream-set1::before {
+    content: "";
+    /* This is necessary for the pseudo-element to work */
+    display: block;
+    /* Make it a block element */
+    width:98px;
+    /* Set the width */
+    height: 65px;
+    /* Set the height */
+    background-image: url('/src/images/svg/symbol-defs.svg#icon-svglapte');
+    /* URL of your image */
+    background-size: cover;
+    /* Cover the area of the pseudo-element */
+    background-repeat: no-repeat;
+    /* Prevent the image from repeating */
+}
+.icecream-set2::before{ content: "";
+    display: block;
+width: 147px;
+height: 65px;
+background-image:url('/src/images/svg/symbol-defs.svg#icon-svgapples');
+background: cover;
+background-repeat: no-repeat;}
+.icecream-set3::before { content: "";
+    display: block;
+width: 147px;
+height:65px;
+background-image: url('/src/images/svg/symbol-defs.svg#icon-svginima');
+background:cover;
+background-repeat: no-repeat;}
