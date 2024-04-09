@@ -19,8 +19,6 @@
     text-align: right;
     font-size: 58px;
     height: 65px;
-    top: 2604px;
-    justify-content: center;
 }
 
 
@@ -43,7 +41,7 @@
 }
 
 .text-cups3 {
-    font-family: 'DM Sans', sans-serif;
+    font-family: var(--dm-family);
     font-weight: 700;
     line-height: 28.16px;
     letter-spacing: 0.02em;
@@ -54,46 +52,16 @@
     position: absolute;
     width: 50px;
     height: 50px;
-    top: 2514px;
 }
-    .icecream-icons1{padding-left: 7px;}
-.icecream-icons2{
-    padding-left: 115px;
+
+.icecream-icons1 {
+    left: 7px;
+}
+
+.icecream-icons2 {
+    left: 416px;
 }
 
 .icecream-icons3 {
-    padding-left: 80px;
-    padding-right: 96px;
+    left: 816px;
 }
-
-
-.icecream-set1::before {
-    content: "";
-    /* This is necessary for the pseudo-element to work */
-    display: block;
-    /* Make it a block element */
-    width:98px;
-    /* Set the width */
-    height: 65px;
-    /* Set the height */
-    background-image: url('/src/images/svg/symbol-defs.svg#icon-svglapte');
-    /* URL of your image */
-    background-size: cover;
-    /* Cover the area of the pseudo-element */
-    background-repeat: no-repeat;
-    /* Prevent the image from repeating */
-}
-.icecream-set2::before{ content: "";
-    display: block;
-width: 147px;
-height: 65px;
-background-image:url('/src/images/svg/symbol-defs.svg#icon-svgapples');
-background: cover;
-background-repeat: no-repeat;}
-.icecream-set3::before { content: "";
-    display: block;
-width: 147px;
-height:65px;
-background-image: url('/src/images/svg/symbol-defs.svg#icon-svginima');
-background:cover;
-background-repeat: no-repeat;}

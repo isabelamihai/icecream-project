@@ -1,13 +1,12 @@
-
 .how-its-made {
     background-color: rgb(255, 245, 246);
-    height: 1229px;
-    
+    height: 757px;
+
 }
 
 .how-its-made .container h2 {
     color: var(--red);
-    font-family:var(--titan-family);
+    font-family: var(--titan-family);
     font-size: 58px;
     font-weight: 400;
     line-height: 66.41px;
@@ -51,7 +50,7 @@
     width: 401px;
     margin-left: 99px;
     margin-top: 32px;
-    
+
 }
 
 .read-more-btn {
@@ -64,12 +63,19 @@
     border-style: none;
     margin-left: 99px;
     margin-top: 40px;
-    
+    transition: background-color var(--transition-hover), transform var(--transform-scale);
+}
 
+.read-more-btn svg {
+    width: 4.43px;
+    height: 8px;
+    margin-left: 13.62px;
+    stroke: var(--red);
 }
 
 .read-more-btn:hover {
     background-color: var(--hover-buttons);
+    transform: scale(1.05);
 }
 
 .how-its-made-style {

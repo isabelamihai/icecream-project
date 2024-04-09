@@ -4,7 +4,7 @@
     background-color: var(--pink);
     border-radius: 50%;
     position: absolute;
-    top: 54px;
+    top: -30px;
     right: 149px;
     z-index: 0;
 }
@@ -15,29 +15,37 @@
 }
 
 .hero-right {
-
-    max-width: 1280px;
-    height: 664px;
+    max-width: 1200px;
+    height: 591px;
     position: relative;
     margin: 0 auto;
-    padding: 37px 16px 0 16px;
 }
 
 .con {
     position: absolute;
     width: 237px;
     height: 557px;
-    top: 108;
+    top: 35;
     right: 328;
     margin-right: 8px;
+    transition: transform var(--transition-hover);
+}
+
+.con:hover {
+    transform: var(--transform-scale);
 }
 
 .women {
     position: absolute;
     width: 304px;
     height: 241px;
-    top: 423px;
+    top: 350px;
     right: 16px;
+    transition: transform var(--transition-hover);
+}
+
+.women:hover {
+    transform: var(--transform-scale);
 }
 
 .cafes-elipse {
@@ -46,7 +54,7 @@
     background-color: var(--white);
     border-radius: 50%;
     position: absolute;
-    top: 152px;
+    top: 68px;
     right: 16px;
     z-index: 1;
 }
@@ -57,7 +65,7 @@
     background-color: var(--white);
     border-radius: 50%;
     position: absolute;
-    top: 244px;
+    top: 160px;
     right: 16px;
     z-index: 1;
 }
@@ -74,7 +82,6 @@
     width: 54px;
     height: 53px;
     letter-spacing: 0.04em;
-    padding: 3px;
 }
 
 .duo {
@@ -87,11 +94,21 @@
 }
 
 .cafes-group .duo {
-    top: 152;
+    top: 72;
     right: 34;
+    transition: transform var(--transition-hover);
 }
 
 .food-group .duo {
-    top: 247;
+    top: 163;
     right: 34;
+    transition: transform var(--transition-hover);
+}
+
+.cafes-group:hover .duo {
+    transform: rotate(360deg);
+}
+
+.food-group:hover .duo {
+    transform: rotate(360deg);
 }
