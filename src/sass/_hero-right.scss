@@ -96,9 +96,19 @@
 .cafes-group .duo {
     top: 72;
     right: 34;
+    transition: transform var(--transition-hover);
 }
 
 .food-group .duo {
     top: 163;
     right: 34;
+    transition: transform var(--transition-hover);
+}
+
+.cafes-group:hover .duo {
+    transform: rotate(360deg);
+}
+
+.food-group:hover .duo {
+    transform: rotate(360deg);
 }

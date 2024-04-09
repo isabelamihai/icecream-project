@@ -33,6 +33,11 @@
   height: 50px;
   margin-top: 37px;
   margin-left: 16px;
+  transition: transform var(--transition-hover);
+}
+
+.logo-header:hover {
+  transform: var(--transform-scale);
 }
 
 .header-buttons .menu-toggle {
@@ -50,7 +55,16 @@
   color: var(--red);
   font-weight: 700;
   margin-top: 40px;
+  transition: transform var(--transition-hover);
 }
+
+.header-buttons .button--big:hover,
+.header-buttons .button--big:focus {
+  background-color: var(--hover-buttons);
+  border-color: var(--hover-buttons);
+  transform: var(--transform-scale);
+}
+
 
 .button__chevron {
   width: 4px;
