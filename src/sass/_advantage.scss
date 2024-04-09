@@ -1,12 +1,19 @@
 .section-cups {
     height: 472px;
-    background-color: rgb(255, 245, 246); position: relative;
+    background-color: rgb(255, 245, 246);
     z-index: 0;
+}
+.hidden-title {
+ display: flex;
+    top: -500px;
+    left: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
 }
 
 .features-icecream {
-    display: flex;
-    justify-content: center;
+    display:flex; justify-content: center; padding: 0%;
 }
 
 .numberseven,
@@ -20,7 +27,6 @@
     font-size: 58px;
     height: 65px;
 }
-
 
 .text-cups1 {
     font-family: var(--dm-family);
@@ -48,20 +54,20 @@
     width: 288px;
     height: 82px;
 }
-.icons-cream {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-}
 
-.icecream-icons1 {
-    left: 7px;
-}
 
-.icecream-icons2 {
-    left: 416px;
-}
+.icecream-icons1{width:50px; height:50px; left: 7px;}
+.icecream-icons2{ width: 50px; height: 50px;
+left: 416px;}
+.icecream-icons3{  width: 50px;height: 40px;
+left:816px; }
 
-.icecream-icons3 {
-    left: 816px;
-}
+.icons-cream svg::before {
+        content: '';
+        display:flexbox;
+        background-image: url('/src/images/svg/symbol-defs.svg#icon-svglapte'),('/src/images/svg/symbol-defs.svg#icon-svgapples'),
+            ('/src/images/svg/symbol-defs.svg#icon-svginima');
+        background-size: cover;
+        background-repeat: no-repeat;
+    
+    }
