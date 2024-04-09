@@ -71,3 +71,24 @@ left:816px; }
         background-repeat: no-repeat;
     
     }
+
+        @media (min-width: 481px) and (max-width: 768px) {
+    
+            /* Stiluri specifice pentru tablete și telefoane mobile */
+            .features-icecream {
+                flex-direction: column;}}
+         @media (min-width: 769px) and (max-width: 1280px) {
+    
+             /* Stiluri specifice pentru ecranele de desktop */
+             .features-icecream {
+                 flex-direction: row;
+             }
+         }
+                 @media (min-width: 1281px) {
+        
+                     /* Stiluri specifice pentru ecranele de înaltă definiție */
+                     .features-icecream {
+                         flex-direction: row;
+                         /* Alte ajustări pentru ecranele de înaltă definiție */
+                     }
+                 }
