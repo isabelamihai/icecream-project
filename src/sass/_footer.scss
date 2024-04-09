@@ -1,0 +1,137 @@
+.footer-icons {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.footer-icons .ficon svg {
+  width: 20px;
+  height: 20px;
+}
+
+.footer-icons .ficon {
+  width: 34px;
+  height: 34px;
+  background-color: var(--icons-background);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-icons .ficon:hover {
+  background-color: #d41443;
+}
+
+.footer-buttons {
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+  gap: 12px;
+}
+
+.fsection {
+  background-color: rgba(255, 245, 246, 1);
+  height: 877px;
+  width: 100%;
+}
+
+.fbutton {
+  font-family: var(--dm-family);
+  font-weight: 700;
+  line-height: 20px;
+  width: 168px;
+  height: 44px;
+  top: 4476px;
+  left: 621px;
+  gap: 0px;
+  border-radius: 22px;
+  opacity: 0px;
+  border: none;
+  background-color: #ffffff;
+  color: #d41443;
+  stroke: #d41443;
+}
+
+.footer-buttons button:hover {
+  background-color: #d41443;
+  color: #ffffff;
+  stroke: #ffffff;
+}
+
+.fsvg {
+  width: 5px;
+  height: 8px;
+  margin-left: 13px;
+}
+
+.footer-slogan {
+  padding-top: 120px;
+}
+
+.icecream {
+  font-family: var(--titan-family);
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 34.35px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  margin-left: 16px;
+  color: #ffa5ba;
+}
+
+.passion {
+  font-family: var(--titan-family);
+  text-transform: uppercase;
+  font-size: 58px;
+  font-weight: 400;
+  line-height: 66.41px;
+  letter-spacing: 0.06em;
+  margin-top: 10px;
+  text-align: left;
+  margin-left: 16px;
+  color: #d41443;
+}
+
+.free {
+  font-family: var(--dm-family);
+  font-weight: 700;
+  line-height: 29.76px;
+  letter-spacing: 0.02em;
+  padding-bottom: 60px;
+}
+
+.pnumber {
+  font-family: var(--dm-family);
+  font-weight: 700;
+  line-height: 29.76px;
+  letter-spacing: 0.02em;
+  color: #d41443;
+}
+
+.copyright {
+  height: 37px;
+  margin-bottom: 4px;
+}
+
+.hr {
+  border: 1px solid #e1e1e1;
+}
+
+.reserved {
+  font-family: var(--dm-family);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 26.04px;
+  letter-spacing: 0.02em;
+  margin-left: 462px;
+  color: #907e82;
+}
+
+.social-free {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: -110px;
+}
