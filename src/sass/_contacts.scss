@@ -1,3 +1,9 @@
+.cont{
+   background: rgb(255, 245, 246);
+    max-width: 100%;
+    margin-top: 362px;
+
+}
 .container{
     width: 480px;
   }
@@ -6,11 +12,11 @@
      flex-direction: column;
      align-items: center;
      gap: 20px;
-     background: rgb(255, 245, 246);
+
   }
   .card-contacts{
     position: relative;
-    top: -60px;
+    top: -310px;
     z-index: 1;
   }
   .contacts h1{
@@ -28,8 +34,8 @@
     justify-content: space-around;
     align-items: center;
     border-radius: 6px;
-    width: 73px;
-    height: 28px;
+    width: 80px;
+    height: 16px;
     background: var(--beige);
     margin-top: 40px;
     margin-left: 40px;
@@ -47,8 +53,8 @@
     justify-content: space-around;
     align-items: center;
     border-radius: 6px;
-    width: 138px;
-    height: 28px;
+    width: 130px;
+    height: 16px;
     background: var(--green);
     margin-top: 40px;
     margin-left: 40px;
@@ -74,6 +80,9 @@
      color:var(--gray);
     
   }
+  .card-contacts .agenda a{
+   text-decoration: none;
+  }
   a:active, 
   a:hover{
      color: var(--red);
@@ -96,6 +105,7 @@
     line-height: 1.86;
     letter-spacing: 0.04em;
     color: var(--black);
+    margin-left: 40px;
   }
  .agenda {
     font-family: var(--dm-family);
@@ -104,7 +114,10 @@
     line-height: 1.83;
     color: var(--gray);
     margin-top: 24px;
- }
+    margin-bottom: 40px;
+
+ } 
+
  .card-contacts h4{
     font-family: var(--dm-family);
     font-weight: 500;
@@ -112,7 +125,8 @@
     line-height: 1.86;
     letter-spacing: 0.04em;
     color: var(--black);
-    margin-top: 24px;
+    margin-top: 20px;
+   
     margin-bottom: 8px;
  }
  .card-contacts p {
@@ -123,9 +137,12 @@
     letter-spacing: 0.04em;
     color: var(--gray);
  }
- 
+
  @media screen and (min-width: 768px) {
- .container{
+   .cont{
+      margin-top: 378px;
+   }
+   .container{
     width: 768px;
  
  }
@@ -134,13 +151,13 @@
     flex-direction: row;
     justify-content: flex-start;
     gap:15px;
- 
+
  }
  .card-contacts {
-    top: -80px;
+    top: -280px;
     width: 224px;
     height: auto;
-    margin-left: 16px;
+    margin-left: 5px;
  }
  .divider{
     width: 160px;
@@ -148,39 +165,53 @@
  .card-contacts h4, p{
     font-size: 14px;
  }
+ .card-contacts h4{
+   margin-top: 32px;
+ }
  .date{
     font-size: 14px;
+    margin-left: 33px;
  }
  .the_time{
     font-size: 14px;
  }
  .agenda{
     font-size: 14px;
+    margin-top: 32px;
+    margin-bottom: 40px;
  }
  .categorie {
     margin-left: 32px;
     font-size: 14px;
+    
+    width: 138px;
+    height: 28px;
  }
  .categories{
     margin-left: 32px;
     font-size: 14px;
+    width: 73px;
+    height: 28px;
  }
  
  }
  
  @media screen and (min-width: 1280px) {
-    .container{
-       width: 1200px;
+   .cont{
+      margin-top: 219px;
+   } 
+   .container{
+    width: 1200px;
     }
     .contacts{
        display: flex;
        flex-direction: row;
        justify-content: flex-start;
-       background: rgb(255, 245, 246);
+     
     }
     .card-contacts{
       position: relative;
-      top: -120px;
+      top: -100px;
       z-index: 1;
     }
     .contacts h1{
@@ -255,6 +286,7 @@
       line-height: 1.86;
       letter-spacing: 0.04em;
       color: var(--black);
+      margin-left: 40px;
     }
    .agenda {
       font-family: var(--dm-family);
@@ -282,4 +314,5 @@
       letter-spacing: 0.04em;
       color: var(--gray);
    }
- }
+
+    }
