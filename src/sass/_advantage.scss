@@ -1,11 +1,19 @@
 .section-cups {
     height: 472px;
     background-color: rgb(255, 245, 246);
+    z-index: 0;
+}
+.hidden-title {
+ display: flex;
+    top: -500px;
+    left: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
 }
 
 .features-icecream {
-    display: flex;
-    justify-content: center;
+    display:flex; justify-content: center; padding: 0%;
 }
 
 .numberseven,
@@ -19,7 +27,6 @@
     font-size: 58px;
     height: 65px;
 }
-
 
 .text-cups1 {
     font-family: var(--dm-family);
@@ -49,31 +56,39 @@
 }
 
 
-.icecream-set2 {
-    padding-left: 115px;
-}
+.icecream-icons1{width:50px; height:50px; left: 7px;}
+.icecream-icons2{ width: 50px; height: 50px;
+left: 416px;}
+.icecream-icons3{  width: 50px;height: 40px;
+left:816px; }
 
-.icecream-set3 {
-    padding-left: 80px;
-    padding-right: 90px;
-}
+.icons-cream svg::before {
+        content: '';
+        display:flexbox;
+        background-image: url('/src/images/svg/symbol-defs.svg#icon-svglapte'),('/src/images/svg/symbol-defs.svg#icon-svgapples'),
+            ('/src/images/svg/symbol-defs.svg#icon-svginima');
+        background-size: cover;
+        background-repeat: no-repeat;
+    
+    }
 
-.icecream-icons1,
-.icecream-icons2,
-.icecream-icons3 {
-    width: 50px;
-    height: 50px;
-}
-
-.icecream-icons1 {
-    left: 7px;
-}
-
-.icecream-icons2 {
-    left: 359px;
-}
-
-.icecream-icons3 {
-    left: 350px;
-    stroke: #FFA5BA;
-}
+        @media (min-width: 481px) and (max-width: 768px) {
+    
+            /* Stiluri specifice pentru tablete și telefoane mobile */
+            .features-icecream {
+                flex-direction: column;}}
+         @media (min-width: 769px) and (max-width: 1280px) {
+    
+             /* Stiluri specifice pentru ecranele de desktop */
+             .features-icecream {
+                 flex-direction: row;
+             }
+         }
+                 @media (min-width: 1281px) {
+        
+                     /* Stiluri specifice pentru ecranele de înaltă definiție */
+                     .features-icecream {
+                         flex-direction: row;
+                         /* Alte ajustări pentru ecranele de înaltă definiție */
+                     }
+                 }

@@ -213,80 +213,91 @@
       position: relative;
       top: -100px;
       z-index: 1;
-    }
-    .contacts h1{
-       position: absolute;
-       left:-9999px;
-    }
-    .categories{
-       font-size: 16px;
-       display: flex;
-       justify-content: space-around;
-       align-items: center;
-       border-radius: 6px;
-       width: 73px;
-       height: 28px;
-       background: var(--beige);
-       margin-top: 40px;
-       margin-left: 40px;
-       margin-bottom: 8px;
-       color: var(--white);
-    }
-    .categorie{
-       display: flex;
-       justify-content: space-around;
-       align-items: center;
-       border-radius: 6px;
-       font-size: 16px;
-       width: 138px;
-       height: 28px;
-       background: var(--green);
-       margin-top: 40px;
-       margin-left: 40px;
-       margin-bottom: 8px;
-       color: var(--white);
-    }
-    .card-contacts{
-       border-radius: 24px;
-       width: 368px;
-       height: 538px;
-       box-shadow: 0 8px 30px 0 rgba(212, 20, 67, 0.1);
-       background: var(--white);
-    }
-    .card-contacts p{
-       color: var(--gray);
-    }
-    .card-contacts h4, p{
-       margin-left: 40px;
-       font-size: 16px;
-    }
-   .card-contacts a{
-       color:var(--gray);
-      
-    }
-    a:active, 
-    a:hover{
-       color: var(--red);
-    }
-    .the_time{
+   }
+
+   .contacts h1 {
+      position: absolute;
+      left: -9999px;
+   }
+
+   .categories {
+      font-size: 16px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      border-radius: 6px;
+      width: 73px;
+      height: 28px;
+      background: var(--beige);
+      margin-top: 40px;
+      margin-left: 40px;
+      margin-bottom: 8px;
+      color: var(--white);
+   }
+
+   .categorie {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      border-radius: 6px;
+      font-size: 16px;
+      width: 138px;
+      height: 28px;
+      background: var(--green);
+      margin-top: 40px;
+      margin-left: 40px;
+      margin-bottom: 8px;
+      color: var(--white);
+   }
+
+   .card-contacts {
+      border-radius: 24px;
+      width: 368px;
+      height: 538px;
+      box-shadow: 0 8px 30px 0 rgba(212, 20, 67, 0.1);
+      background: var(--white);
+   }
+
+   .card-contacts p {
+      color: var(--gray);
+   }
+
+   .card-contacts h4,
+   .card-contacts p {
+      margin-left: 40px;
+      font-size: 16px;
+   }
+
+   .card-contacts a {
+      color: var(--gray);
+
+   }
+
+   a:active,
+   a:hover {
+      color: var(--red);
+   }
+
+   .the_time {
       font-family: var(--dm-family);
       font-weight: 500;
       font-size: 16px;
       line-height: 1.86;
-       color: var(--pink);
-    }
-    .divider {
-       margin-left: 40px;
-       width: 268px;
-    }
-    .date{
+      color: var(--pink);
+   }
+
+   .divider {
+      margin-left: 40px;
+      width: 268px;
+   }
+
+   .date {
       font-family: var(--dm-family);
       font-weight: 500;
       font-size: 16px;
       line-height: 1.86;
       letter-spacing: 0.04em;
       color: var(--black);
-      margin-left: 40px;
     }
    .agenda {
       font-family: var(--dm-family);
@@ -296,7 +307,8 @@
       color: var(--gray);
       margin-top: 32px;
    }
-   .card-contacts h4{
+
+   .card-contacts h4 {
       font-family: var(--dm-family);
       font-weight: 500;
       font-size: 16px;
@@ -306,6 +318,7 @@
       margin-top: 32px;
       margin-bottom: 8px;
    }
+
    .card-contacts p {
       font-family: var(--dm-family);
       font-weight: 500;
@@ -314,5 +327,4 @@
       letter-spacing: 0.04em;
       color: var(--gray);
    }
-
-    }
+ }
