@@ -143,7 +143,8 @@
 /* Stiluri tabletă si dipozitive incepand cu 768px */
 @media screen and (min-width: 768px) {
     .carousel-text-container {
-        opacity: 0.4;
+        // opacity: 0.4;
+        background-color: #fafafa66;
         width: 620px;
         height: 164px;
         flex-direction: row;
@@ -163,7 +164,7 @@
         height: 83px;
     }
     .carousel-indicators {
-        top: 340px;
+        top: 365px;
     }
     .stroke {
         width: 608px;
@@ -189,6 +190,9 @@
 
 /* Stiluri desktop si dispozitive incepand cu 1158px*/
 @media screen and (min-width: 1158px) {
+    .review-carousel {
+        margin-bottom: 220px;
+    }
     .carousel-text-container {
         background-color: #fafafa;
         opacity: 1;
