@@ -10,6 +10,7 @@
         margin-bottom: 210px;
     }
 }
+
 @media screen and (min-width: 768px) {
 
     .icecream-pink,
@@ -35,6 +36,7 @@
         height: 199px;
     }
 }
+
 .natural {
     margin: 0;
     font-family: var(--titan-family);
@@ -77,6 +79,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 60px;
 }
 
 .icecream-pink {
@@ -142,4 +145,54 @@
 
 .arrow-right-products {
     margin-bottom: 32px;
+}
+
+// Transitions
+.pic:hover {
+    transition: transform var(--transition-hover);
+    transform: var(--transform-scale);
+}
+
+.content:hover {
+    transition: transform var(--transition-hover);
+    transform: var(--transform-scale);
+    transform: rotate(360deg);
+}
+
+/* Responsve */
+@media only screen and (min-width: 320px) {
+    .items {
+        flex-wrap: wrap;
+    }
+
+    .icecream-pink,
+    .icecream-yellow,
+    .icecream-green {
+        margin-bottom: 210px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .icecream-pink,
+    .icecream-yellow,
+    .icecream-green {
+        height: 504px;
+        width: 289px;
+    }
+
+    .pic {
+        width: 241px;
+        height: 224px;
+        margin-top: -137px;
+    }
+
+    .items {
+        margin-top: 203px;
+    }
+
+    .products-details {
+        width: 188px;
+        height: 199px;
+    }
 }
