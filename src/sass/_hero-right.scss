@@ -25,14 +25,10 @@
     position: absolute;
     width: 237px;
     height: 557px;
-    top: 35;
-    right: 328;
+    top: 35px;
+    right: 328px;
     margin-right: 8px;
-    transition: transform var(--transition-hover);
-}
-
-.con:hover {
-    transform: var(--transform-scale);
+    transition: opacity 0.5s ease;
 }
 
 .women {
