@@ -8,6 +8,7 @@
 }
 
 .carousel-inner h3 {
+    font-family: var(--dm-family);
     display: flex;
     justify-content: center;
     font-weight: 500;
@@ -18,7 +19,7 @@
 }
 
 .carousel-indicators {
-    top: 340px;
+    top: 500px;
 }
 
 .carousel-indicators li {
@@ -47,18 +48,17 @@
 
 .carousel-text-container {
     background-color: #fafafa;
-    width: 968px;
-    height: 138px;
+    width: 280px;
+    height: 307px;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-}
-
-.carousel-text-container p {
-    padding: 1px;
+    // justify-content: center;
 }
 
 .carousel-text {
+    display: flex;
+    justify-content: center;
     width: 750px;
     text-align: center;
 }
@@ -71,37 +71,59 @@
     width: 54px;
     height: 40px;
     position: relative;
-    bottom: 25px;
-    right: 30px;
+    top: 20px;
+    right: 60px;
 }
+.carousel-text-container p {
+    font-family: var(--dm-family);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 260%;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: var(--black);
+    padding: 1px;
+    z-index: 1;
 
+    // text-decoration: underline;
+    // text-underline-offset: 0.5em;
+    // text-align:center;
+    // text-decoration-thickness: 2px;
+    // text-underline-position: from-font;
+    // text-decoration-color: #E1E1E1;
+    width: 160px;
+    height: 213px;
+}
 .stroke {
     position: absolute;
-    width: 860px;
+    width: 180px;
     height: 2px;
     fill: none;
     stroke: #E1E1E1;
+    left: 50px;
 }
 
 .first-stroke {
     top: 145px;
-    left: 50px;
 }
-
 .second-stroke {
     top: 175px;
-    left: 50px;
 }
-
-.carousel-text-container p {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 186%;
-    letter-spacing: 0.04em;
-    text-align: center;
-    color: var(--black);
+.third-stroke{
+    top: 207px;
 }
-
+.fourth-stroke {
+    top: 240px;
+}
+.fifth-stroke {
+    top: 270px;
+}
+.sixth-stroke {
+    top: 301px;
+}
+.seventh-stroke {
+    top: 335px;
+}
 .central-dots {
     display: flex;
     justify-content: center;
@@ -116,4 +138,98 @@
     border-radius: 50%;
     display: inline-block;
 
+}
+
+/* Stiluri tabletă si dipozitive incepand cu 768px */
+@media screen and (min-width: 768px) {
+    .carousel-text-container {
+        // opacity: 0.4;
+        background-color: #fafafa66;
+        width: 620px;
+        height: 164px;
+        flex-direction: row;
+    }
+    .quatation {
+        width: 60px;
+        height: 40px;
+        bottom: 40px;
+        left: 20px;
+        top: auto;
+        right: auto;
+    }
+    .carousel-text-container p {
+        font-size: 14px;
+        line-height: 214%;
+        width: 492px;
+        height: 83px;
+    }
+    .carousel-indicators {
+        top: 365px;
+    }
+    .stroke {
+        width: 608px;
+        left: 5px;
+    }
+
+    .fourth-stroke {
+        display: none;
+    }
+
+    .fifth-stroke {
+        display: none;
+    }
+
+    .sixth-stroke {
+        display: none;
+    }
+
+    .seventh-stroke {
+        display: none;
+    }
+}
+
+/* Stiluri desktop si dispozitive incepand cu 1158px*/
+@media screen and (min-width: 1158px) {
+    .review-carousel {
+        margin-bottom: 220px;
+    }
+    .carousel-text-container {
+        background-color: #fafafa;
+        opacity: 1;
+        width: 968px;
+        height: 138px;
+        display: flex;
+        justify-content: center;
+    }
+    .quatation {
+        width: 54px;
+        height: 40px;
+        bottom: 25px;
+        right: 30px;
+        
+    }
+    .carousel-text-container p {
+        font-size: 16px;
+        line-height: 186%;
+        padding: 1px;
+
+        width: 750px;
+        height: 52px;
+    }
+    .stroke {
+        width: 821px;
+        left: 80px;
+    }
+
+    .first-stroke {
+        top: 145px;
+    }
+
+    .second-stroke {
+        top: 175px;
+    }
+
+    .third-stroke {
+        display: none;
+    }
 }
