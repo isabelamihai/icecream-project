@@ -161,16 +161,20 @@
  }
  .divider{
     width: 160px;
+    margin-left: 32px;
  }
- .card-contacts h4, p{
-    font-size: 14px;
- }
+
  .card-contacts h4{
    margin-top: 32px;
+   margin-left: 32px;
+ }
+ .card-contacts p{
+   margin-left: 32px;
+   font-size: 14px;
  }
  .date{
     font-size: 14px;
-    margin-left: 33px;
+    margin-left: 32px;
  }
  .the_time{
     font-size: 14px;
@@ -298,6 +302,7 @@
       line-height: 1.86;
       letter-spacing: 0.04em;
       color: var(--black);
+      margin-left: 40px;
     }
    .agenda {
       font-family: var(--dm-family);
