@@ -1,0 +1,67 @@
+.is-hidden{
+    visibility: hidden;
+    transform: scale(1.1)
+}
+
+.modal{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    overflow: auto;
+}
+
+.modal-content{
+    background-color: #E17992;
+    padding: 20px;
+    width: 254px;
+    height: 1020px;
+    position: relative;
+}
+
+button.close-button{
+    position: absolute;
+    top: 20px;
+    right: 32px;
+    background-color: #E17992;
+    color:#ffff;
+    width: 14px;
+    height: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    outline: none;
+    border-style: none;
+}
+
+.form-group{
+    display: flex;
+    width: 102px;
+    height: 181px;
+    position: relative;
+    flex-direction: column;
+    gap: 5px;
+}
+.opening-button-modal{
+        background-color: #ffff;
+        width: 186px;
+        height: 44px;
+        border-radius: 22px;
+        margin-top: 58px;
+        margin-left: 34px;
+        margin-right: 34px;
+        margin-bottom: 918px;
+    }
+
+    label :hover{
+        font-family: var(--dm-family);
+        font-weight: 700;
+        font-size: 14px;
+        
+    }
+    
