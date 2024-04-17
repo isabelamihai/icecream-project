@@ -27,6 +27,7 @@
 .nav__link:hover,
 .nav__link:focus {
   color: var(--red);
+  background-color: transparent !important;
 }
 
 .logo-header {

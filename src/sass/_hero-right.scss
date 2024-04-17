@@ -1,11 +1,16 @@
+.container {
+    max-width: 428px;
+    height: 416px;
+}
+
 .elipse-hero {
-    height: 543px;
-    width: 543px;
+    height: 346px;
+    width: 344px;
     background-color: var(--pink);
     border-radius: 50%;
     position: absolute;
-    top: -10px;
-    right: 149px;
+    top: 83;
+    right: 62;
     z-index: 0;
 }
 
@@ -28,7 +33,11 @@
     top: 35px;
     right: 328px;
     margin-right: 8px;
-    transition: opacity 0.5s ease;
+    transition: transform var(--transition-hover);
+}
+
+.con:hover {
+    transform: var(--transform-scale);
 }
 
 .women {
@@ -92,19 +101,49 @@
 .cafes-group .duo {
     top: 72;
     right: 34;
-    transition: transform var(--transition-hover);
 }
 
 .food-group .duo {
     top: 163;
     right: 34;
-    transition: transform var(--transition-hover);
 }
 
-.cafes-group:hover .duo {
-    transform: rotate(360deg);
+/* Stilizare tableta si device-uri peste 768px */
+@media screen and (min-width: 768px) {
+
+    .container {
+        max-width: 768px;
+    }
+
+    .elipse-hero {
+        height: 335px;
+        width: 333px;
+        top: -10px;
+        right: 149px;
+    }
 }
 
-.food-group:hover .duo {
-    transform: rotate(360deg);
+/* Stilizare desktop si device-uri peste 1200px */
+
+@media screen and (min-width: 1200px) {
+
+    .container {
+        max-width: 1200px;
+    }
+
+    .elipse-hero {
+        height: 543px;
+        width: 543px;
+        top: -10px;
+        right: 149px;
+    }
+
+    .con {
+        width: 237px;
+        height: 557px;
+        top: 35px;
+        right: 328px;
+        margin-right: 8px;
+        transition: transform var(--transition-hover);
+    }
 }
