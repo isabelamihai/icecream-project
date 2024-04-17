@@ -15,7 +15,7 @@
 }
 
 .gallery-container {
-    padding: 0 20px;
+    padding: 0 0px;
 }
 
 .gallery-row {
@@ -153,16 +153,20 @@
     .gallery {
         padding-bottom: 60px;
     }
+
+    .gallery-container {
+        padding: 0 60px;
+    }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
     .gallery {
         padding-bottom: 120px;
         margin-top: -89px;
     }
 
     .gallery-container {
-        max-width: 1280px;
+        max-width: 1200px;
         padding: 0 93px;
         margin: 0 auto;
     }
