@@ -8,6 +8,7 @@
 }
 
 .carousel-inner h3 {
+    font-family: var(--dm-family);
     display: flex;
     justify-content: center;
     font-weight: 500;
@@ -18,7 +19,7 @@
 }
 
 .carousel-indicators {
-    top: 340px;
+    top: 500px;
 }
 
 .carousel-indicators li {
@@ -44,64 +45,53 @@
     width: 85px;
     height: 85px;
 }
-
+.carousel-text-container p::before {
+    content: url('../images/customer-review/quatation_carousel.svg');
+    width: 54px;
+    height: 40px;
+    bottom: 25px;
+    right: 30px;
+    
+    position: absolute;
+    z-index: -1;
+    top: 127px;
+    right: 178px;
+}
 .carousel-text-container {
     background-color: #fafafa;
-    width: 968px;
-    height: 138px;
+    width: 280px;
+    height: 307px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.carousel-text-container p {
-    padding: 1px;
-}
-
 .carousel-text {
-    width: 750px;
-    text-align: center;
+    display: flex;
+    width: 180px;
+    justify-content: center;
+    background-image: repeating-linear-gradient(
+    transparent,
+    transparent 29px,
+    #E1E1E1 29px,
+    #E1E1E1 30px
+    );
 }
-
-.quatation {
-    background-image: url('../images/customer-review/quatation_carousel.svg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    border-radius: 0%;
-    width: 54px;
-    height: 40px;
-    position: relative;
-    bottom: 25px;
-    right: 30px;
-}
-
-.stroke {
-    position: absolute;
-    width: 860px;
-    height: 2px;
-    fill: none;
-    stroke: #E1E1E1;
-}
-
-.first-stroke {
-    top: 145px;
-    left: 50px;
-}
-
-.second-stroke {
-    top: 175px;
-    left: 50px;
-}
-
 .carousel-text-container p {
+    font-family: var(--dm-family);
     font-weight: 500;
-    font-size: 16px;
-    line-height: 186%;
+    font-size: 12px;
+    line-height: 260%;
     letter-spacing: 0.04em;
     text-align: center;
     color: var(--black);
-}
+    padding: 1px;
+    z-index: 3;
 
+    width: 160px;
+    height: 213px;
+}
 .central-dots {
     display: flex;
     justify-content: center;
@@ -110,10 +100,69 @@
 }
 
 .dot {
-    height: 5px;
-    width: 5px;
+    height: 4px;
+    width: 4px;
     background-color: #c7133e;
     border-radius: 50%;
     display: inline-block;
 
+}
+
+/* Stiluri tabletă si dipozitive incepand cu 768px */
+@media screen and (min-width: 768px) {
+    .carousel-text{
+        width: 608px;
+    }
+    .carousel-text-container {
+        // opacity: 0.4;
+        background-color: #fafafa66;
+        width: 620px;
+        height: 164px;
+        flex-direction: row;
+    }
+    .carousel-text-container p::before {
+        top: 123px;
+        left: 5px;
+    }
+    .carousel-text-container p {
+        font-size: 14px;
+        line-height: 214%;
+        width: 492px;
+        height: 83px;
+    }
+    .carousel-indicators {
+        top: 365px;
+    }
+}
+
+/* Stiluri desktop si dispozitive incepand cu 1158px*/
+@media screen and (min-width: 1158px) {
+    .review-carousel {
+        margin-bottom: 220px;
+    }
+    .carousel-text-container {
+        background-color: #fafafa;
+        opacity: 1;
+        width: 968px;
+        height: 138px;
+        display: flex;
+        justify-content: center;
+    }
+    .carousel-text-container p::before {
+        top: 127px;
+        left: 73px;
+    }
+    .carousel-text-container p {
+        font-size: 16px;
+        line-height: 186%;
+        padding: 1px;
+        width: 750px;
+        height: 52px;
+    }
+    .carousel-text {
+        width: 821px;
+    }
+    .carousel-indicators {
+        top: 340px;
+    }
 }
