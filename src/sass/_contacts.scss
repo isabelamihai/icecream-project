@@ -2,11 +2,12 @@
    background: rgb(255, 245, 246);
    max-width: 100%;
    margin-top: 362px;
+   margin-bottom: -280px;
 
 }
 
 .container {
-   width: 320px;
+   width: 480px;
 }
 
 .contacts {
@@ -159,6 +160,7 @@ a:hover {
 @media screen and (min-width: 768px) {
    .cont {
       margin-top: 378px;
+      margin-bottom: -220px;
    }
 
    .container {
@@ -231,6 +233,7 @@ a:hover {
 @media screen and (min-width: 1280px) {
    .cont {
       margin-top: 219px;
+      margin-bottom: 0;
    }
 
    .container {
