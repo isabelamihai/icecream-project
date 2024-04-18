@@ -1,5 +1,5 @@
 /* Responsve */
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 480px) {
     .items {
         flex-wrap: wrap;
     }
@@ -124,7 +124,7 @@
     line-height: 24.64px;
     letter-spacing: 0.04em;
     color: var(--white);
-    height: 134px;
+    height: 184px;
     font-size: 16px;
 }
 
@@ -153,46 +153,11 @@
     transform: var(--transform-scale);
 }
 
-.content:hover {
+img.arrow-right-products:hover {
     transition: transform var(--transition-hover);
     transform: var(--transform-scale);
-    transform: rotate(360deg);
+    transform: rotate(270deg);
 }
-
-/* Responsve */
-@media only screen and (min-width: 320px) {
-    .items {
-        flex-wrap: wrap;
-    }
-
-    .icecream-pink,
-    .icecream-yellow,
-    .icecream-green {
-        margin-bottom: 210px;
-    }
-}
-
-@media screen and (min-width: 768px) {
-
-    .icecream-pink,
-    .icecream-yellow,
-    .icecream-green {
-        height: 504px;
-        width: 289px;
-    }
-
-    .pic {
-        width: 241px;
-        height: 224px;
-        margin-top: -137px;
-    }
-
-    .items {
-        margin-top: 203px;
-    }
-
-    .products-details {
-        width: 188px;
-        height: 199px;
-    }
-}
+ .items {
+     flex-wrap: nowrap;
+ }
