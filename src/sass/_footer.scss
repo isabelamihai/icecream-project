@@ -3,10 +3,13 @@
 .fsection {
   background-color: rgba(255, 245, 246, 1);
   width: 100%;
-} /*Footer Section*/
+}
+
+/*Footer Section*/
 .container {
   max-width: 480px;
 }
+
 /*Footer Buttons*/
 
 .footer-buttons {
@@ -15,7 +18,9 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
-} /*Div Buttons*/
+}
+
+/*Div Buttons*/
 
 .fbutton {
   font-family: var(--dm-family);
@@ -32,18 +37,22 @@
   background-color: #d41443;
   color: #ffffff;
   stroke: #ffffff;
-} /*Button class*/
+}
 
+/*Button class*/
 .footer-buttons button:hover {
   background-color: #ffffff;
   color: #d41443;
   stroke: #d41443;
 }
+
 .fsvg {
   width: 3.61px;
   height: 8px;
   margin-left: 8px;
-} /*SVG inside button*/
+}
+
+/*SVG inside button*/
 
 /*End Footer Buttons*/
 
@@ -51,7 +60,9 @@
 
 .footer-slogan {
   padding-top: 40px;
-} /*Div Footer Slogan*/
+}
+
+/*Div Footer Slogan*/
 .icecream {
   font-family: var(--titan-family);
   text-transform: uppercase;
@@ -62,7 +73,9 @@
   text-align: left;
   margin-left: 22px;
   color: #ffa5ba;
-} /*Homemade Ice Cream Made*/
+}
+
+/*Homemade Ice Cream Made*/
 
 .passion {
   font-family: var(--titan-family);
@@ -77,7 +90,9 @@
   color: #d41443;
   width: 200px;
   height: 76px;
-} /*With Passion*/
+}
+
+/*With Passion*/
 
 /*End Footer Slogan*/
 
@@ -86,19 +101,27 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  margin-top: 53px; /*fata de div slogan*/
-} /*Social-free div*/
+  margin-top: 53px;
+  /*fata de div slogan*/
+}
+
+/*Social-free div*/
 
 .footer-icons {
   display: flex;
   gap: 28.24px;
-  margin-bottom: 40px; /*fata de feel free to contact*/
-} /*Div Footer Icons*/
+  margin-bottom: 40px;
+  /*fata de feel free to contact*/
+}
+
+/*Div Footer Icons*/
 
 .footer-icons .ficon svg {
   width: 18.82px;
   height: 18.82px;
-} /*icons sizes*/
+}
+
+/*icons sizes*/
 
 .footer-icons .ficon {
   width: 32px;
@@ -108,11 +131,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-} /*icons stilisation*/
+}
+
+/*icons stilisation*/
 
 .footer-icons .ficon:hover {
   background-color: #d41443;
 }
+
 /*End Footer icons*/
 
 /*Feel free to contact*/
@@ -122,7 +148,8 @@
   font-weight: 700;
   line-height: 22.32px;
   letter-spacing: 0.02em;
-  padding-bottom: 16px; /*fata de hr*/
+  padding-bottom: 16px;
+  /*fata de hr*/
   text-align: right;
 }
 
@@ -139,13 +166,17 @@
 .pnumber:hover {
   color: #d41443;
 }
+
 /*End of Div social-free*/
 
 /*Copyright div*/
 .copyright {
-  height: 62px; /*de la hr pana jos*/
+  height: 62px;
+  /*de la hr pana jos*/
   margin-bottom: 4px;
-} /*Div */
+}
+
+/*Div */
 .hr {
   width: 480px;
   border: 1px solid #e1e1e1;
@@ -170,24 +201,31 @@
   .container {
     max-width: 768px;
   }
+
   .footer-buttons {
     flex-direction: row;
     gap: 14.5px;
   }
+
   .fbutton {
     line-height: 20px;
     width: 161.45px;
   }
+
   .fsvg {
     width: 4.28px;
     margin-left: 8.4px;
-  } /*SVG inside button*/
+  }
+
+  /*SVG inside button*/
   .icecream {
     width: 400px;
     font-size: 26px;
     line-height: 29.77px;
     margin-left: 16px;
-  } /*Homemade Ice Cream Made*/
+  }
+
+  /*Homemade Ice Cream Made*/
   .passion {
     width: 340px;
     height: 110px;
@@ -196,50 +234,68 @@
     letter-spacing: 0.06em;
     padding-top: 12px;
     margin-left: 16px;
-  } /*With Passion*/
+  }
+
+  /*With Passion*/
   .social-free {
     margin-top: -119px;
   }
+
   .footer-icons {
     gap: 30px;
-  } /*Div Footer Icons*/
+  }
+
+  /*Div Footer Icons*/
   .footer-icons .ficon svg {
     width: 20px;
     height: 20px;
-  } /*icons sizes*/
+  }
+
+  /*icons sizes*/
   .footer-icons .ficon {
     width: 34px;
     height: 34px;
-  } /*icons stilisation*/
+  }
+
+  /*icons stilisation*/
   .free {
     font-size: 14px;
     line-height: 26.04px;
     padding-bottom: 36px;
   }
+
   .pnumber {
     font-size: 14px;
     line-height: 26.04px;
   }
+
   .copyright {
-    height: 40px; /*de la hr pana jos*/
-  } /*Div */
+    height: 40px;
+    /*de la hr pana jos*/
+  }
+
+  /*Div */
   .hr {
     width: 768px;
   }
+
   .reserved {
     width: 278px;
     line-height: 26.04px;
     margin-left: 239px;
   }
 }
+
 /* Responsivness Desktop and devices over 1200px*/
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 1200px;
   }
+
   .footer-buttons {
     gap: 12px;
   }
+
   .fbutton {
     margin-top: 60px;
     margin-bottom: 120px;
@@ -247,46 +303,60 @@
     width: 168px;
     height: 44px;
   }
+
   .fsvg {
     width: 5px;
     margin-left: 13px;
   }
+
   .footer-slogan {
     margin-bottom: -148px;
     /*Div Footer Slogan*/
   }
+
   .icecream {
     width: 472px;
     font-size: 30px;
     line-height: 34.35px;
-  } /*Homemade Ice Cream Made*/
+  }
+
+  /*Homemade Ice Cream Made*/
 
   .passion {
     width: 505px;
     height: 66px;
     font-size: 58px;
     line-height: 66.41px;
-  } /*With Passion*/
+  }
+
+  /*With Passion*/
   .social-free {
     margin-top: 45px;
   }
+
   .free {
     font-size: 14px;
     line-height: 29.76px;
     padding-bottom: 60px;
   }
+
   .pnumber {
     font-size: 16px;
     line-height: 29.76px;
   }
+
   .copyright {
-    height: 37px; /*de la hr pana jos*/
-  } /*Div */
+    height: 37px;
+    /*de la hr pana jos*/
+  }
+
+  /*Div */
   .hr {
     width: 1167px;
     top: 4816px;
     left: 17px;
   }
+
   .reserved {
     width: 278px;
     margin-left: 452px;

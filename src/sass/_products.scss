@@ -1,17 +1,7 @@
 /* Responsve */
-@media only screen and (min-width: 480px) {
-    .items {
-        flex-wrap: wrap;
-    }
 
-    .icecream-pink,
-    .icecream-yellow,
-    .icecream-green {
-        margin-bottom: 210px;
-    }
-}
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
 
     .icecream-pink,
     .icecream-yellow,
@@ -158,6 +148,19 @@ img.arrow-right-products:hover {
     transform: var(--transform-scale);
     transform: rotate(270deg);
 }
- .items {
-     flex-wrap: nowrap;
- }
+
+.items {
+    flex-wrap: nowrap;
+}
+
+@media only screen and (max-width: 480px) {
+    .items {
+        flex-wrap: wrap;
+    }
+
+    .icecream-pink,
+    .icecream-yellow,
+    .icecream-green {
+        margin-bottom: 210px;
+    }
+}

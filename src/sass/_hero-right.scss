@@ -38,6 +38,7 @@
     top: 92px;
     right: 32px;
     z-index: 0;
+    cursor: pointer;
 }
 
 .con:hover {
@@ -52,6 +53,7 @@
     top: 350px;
     right: 16px;
     transition: transform var(--transition-hover);
+    cursor: pointer;
 }
 
 .women:hover {
@@ -222,7 +224,7 @@
 
 /* Stilizare desktop si device-uri peste 1200px */
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
 
     .container {
         max-width: 1200px;
