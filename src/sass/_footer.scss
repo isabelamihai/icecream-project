@@ -29,9 +29,9 @@
   border-radius: 22px;
   opacity: 0px;
   border: none;
-  background-color: #ffffff;
-  color: #d41443;
-  stroke: #d41443;
+  background-color: #d41443;
+  color: #ffffff;
+  stroke: #ffffff;
 } /*Button class*/
 
 .footer-buttons button:hover {
@@ -154,12 +154,12 @@
 .reserved {
   font-family: var(--dm-family);
   text-align: center;
-  width: 134px;
+  width: 150px;
   font-size: 14px;
   font-weight: 700;
   line-height: 21.28px;
   letter-spacing: 0.02em;
-  margin-left: 86px;
+  margin-left: 150px;
   color: #907e82;
 }
 
