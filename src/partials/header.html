@@ -3,8 +3,8 @@
     <div class="header-container">
       <a href="index.html">
         <svg class="logo-header">
-          <use href="/src/images/svg/symbol-defs.svg#icon-logo"></use></svg
-      ></a>
+          <use href="/src/images/svg/symbol-defs.svg#icon-logo"></use>
+        </svg></a>
       <div class="main-nav">
         <nav>
           <ul class="nav">
@@ -39,12 +39,13 @@
         <div class="container-menu-mobile">
           <div class="menu-container js-menu-container" id="mobile-menu">
             <button type="button" class="close-btn js-close-menu">x</button>
-            <button class="buyNowToggle-btn" type="button">
-              Buy now
-              <svg class="button__chevron">
-                <use href="/src/images/svg/symbol-defs.svg#icon-arrow"></use>
-              </svg>
-            </button>
+            <div class="buy-now"> <button class="buyNowToggle-btn" type="button">
+                Buy now
+                <svg class="button__chevron">
+                  <use href="/src/images/svg/symbol-defs.svg#icon-arrow"></use>
+                </svg>
+              </button>
+            </div>
             <ul class="mobile-menu">
               <li><a href="./index.html" class="link">Home</a></li>
               <li><a href="#about" class="link">About us</a></li>
@@ -56,29 +57,14 @@
         </div>
       </div>
       <div class="header-buttons">
-        <button
-          class="menu-toggle js-open-menu"
-          aria-expanded="false"
-          aria-controls="mobile-menu"
-        >
-          <svg
-            width="24"
-            height="24"
-            fill="currentColor"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fill-rule="evenodd"
+        <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+          <svg width="24" height="24" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
               d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-              clip-rule="evenodd"
-            ></path>
+              clip-rule="evenodd"></path>
           </svg>
         </button>
-        <button
-          class="header-buttons__cta button button--big button--reversed"
-          type="button"
-        >
+        <button class="button button--big" type="button">
           Buy now
           <svg class="button__chevron">
             <use href="/src/images/svg/symbol-defs.svg#icon-arrow"></use>

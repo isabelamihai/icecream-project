@@ -24,8 +24,9 @@
 <path fill="#d41443" style="fill: var(--color2, #d41443)" d="M8.629 23.308c0 3.524 1.224 4.229 7.406 4.229s7.406-0.705 7.406-4.229c0-1.538-0.322-2.178-0.966-2.178-0.58 0-0.966 0.577-0.966 1.538 0 3.588-4.894 3.908-5.603 0.384-0.322-1.858-0.515-1.922-3.8-1.922h-3.477v2.178zM12.622 30.548c0.386 2.050 6.955 1.858 6.955-0.128 0-0.705-0.837-0.961-3.606-0.961-3.027 0-3.542 0.192-3.349 1.089z"></path>
 </symbol>
 <!-- close btn modal -->
-<symbol id="icon-closeb" viewBox="0 0 32 32">
-<path d="M32 3.224l-3.224-3.224-12.776 12.776-12.776-12.776-3.224 3.224 12.776 12.776-12.776 12.776 3.224 3.224 12.776-12.776 12.776 12.776 3.224-3.224-12.776-12.776 12.776-12.776z"></path>
+<symbol id="icon-close" viewBox="0 0 32 32">
+<path fill="currentColor" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="2" d="M2.518 2l26.963 28"></path>
+<path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="2" d="M2 29.481l28-26.963"></path>
 </symbol>
 <!-- sageata vector butoane -->
 <symbol id="icon-arrow" viewBox="0 0 19 32">
