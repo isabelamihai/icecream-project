@@ -8,7 +8,7 @@ Developed a functional website for a fictive company called "Ice Cream" followin
 - Responsive Design with breakpoints at 480px, 768px, and 1280px. The mobile version of the site must be fully responsive. The website should display correctly on all screen sizes and device orientations, starting from 320px width, both in portrait and landscape mode.
 - Valid Markup
 The layout must pass validation checks using tools such as:
-https://validator.w3.org/
+https://validator.w3.org/, 
 https://validator.w3.org/unicorn/
 - HTML5 Semantics
 Use semantic HTML5 tags according to modern web standards.
