@@ -2,7 +2,7 @@
 
 # 🌐Icecream Team Project via Parcel
 Developed a functional website for a fictive company called "Ice Cream" following the given instructions and Figma design. <br/>
-Figma design: https://www.figma.com/design/Ltoc0qV4LrKSoYiNFRbqVl/ICE-CREAM-PROJECT-TEAM-3?node-id=0-1&p=f&t=kZIHzfRMTg7qsTlO-0 
+🎨 View the [Figma Design](https://www.figma.com/design/Ltoc0qV4LrKSoYiNFRbqVl/ICE-CREAM-PROJECT-TEAM-3?node-id=0-1&p=f&t=kZIHzfRMTg7qsTlO-0) here.
 
 ## 📋Tehnical task specifications:
 - Responsive Design with breakpoints at 480px, 768px, and 1280px. The mobile version of the site must be fully responsive. The website should display correctly on all screen sizes and device orientations, starting from 320px width, both in portrait and landscape mode.
