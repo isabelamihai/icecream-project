@@ -22,7 +22,7 @@ Apply appropriate techniques (e.g., modern formats, lazy loading) to reduce imag
 Add a favicon to the page for browser tab display.
 
 ## 🛠️Tech Stack
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&style=flat) ![SCSS](https://img.shields.io/badge/-SCSS-CD6799?logo=sass&logoColor=white&style=flat) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat) ![Parcel](https://img.shields.io/badge/-Parcel-333?logo=parcel&logoColor=yellow&style=flat) ![JSON](https://img.shields.io/badge/-JSON-000000?logo=json&logoColor=white&style=flat) ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?logo=bootstrap&logoColor=white&style=flat)
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&style=flat) ![SCSS](https://img.shields.io/badge/-SCSS-CD6799?logo=sass&logoColor=white&style=flat) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat) ![Parcel](https://img.shields.io/badge/-Parcel-333?logo=parcel&logoColor=yellow&style=flat) ![JSON](https://img.shields.io/badge/-JSON-000000?logo=json&logoColor=white&style=flat) ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?logo=bootstrap&logoColor=white&style=flat) ![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=nodedotjs&logoColor=white&style=flat)
 
  ## 🧱Structure
 - ***Antet Hero*** **(*Hero header)***
