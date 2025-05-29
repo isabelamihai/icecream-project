@@ -92,4 +92,4 @@ Responsive from 320px up.<br/>
 Modals, slider, and animations are optional.<br/>
 
 ## 🔛Link live
-![GitPages] - https://isabelamihai.github.io/icecream-project/
+[GitPages](https://isabelamihai.github.io/icecream-project/)
